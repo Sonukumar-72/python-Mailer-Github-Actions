@@ -9,10 +9,10 @@ jobs:
 
     steps:
       - name: "Checkout code"
-        uses: actions/checkout@v3 # Updated to v3 for Node.js 20 compatibility
+        uses: actions/checkout@v2 # Updated to v3 for Node.js 20 compatibility
 
       - name: "Setup Python environment"
-        uses: actions/setup-python@v4 # Updated to v4 for Node.js 20 compatibility
+        uses: actions/setup-python@v2 # Updated to v4 for Node.js 20 compatibility
         with:
           python-version: '3.x'
 
